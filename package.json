@@ -1,0 +1,12 @@
+{
+  "name": "random-words-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gabrielheinrich/random-words-express",
+  "author": "Issah <yussif.issah@gmail.com>",
+  "license": "MIT",
+
+  "scripts": {
+    "start": "node index.js"
+  }
+}

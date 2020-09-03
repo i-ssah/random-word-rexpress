@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/issah/n/bin/node /Users/issah/n/bin/yarn start
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/issah/n/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/issah/Developer/random-words-express/package.json: Unexpected string in JSON at position 223
+      at JSON.parse (<anonymous>)
+      at /Users/issah/n/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/issah/n/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/issah/n/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "random-words-express",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/gabrielheinrich/random-words-express",
+    "author": "Issah <yussif.issah@gmail.com>",
+    "license": "MIT"
+  
+    "scripts": {
+      "start": "node index.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
